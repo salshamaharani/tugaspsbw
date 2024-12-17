@@ -3,21 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sistem Akademik Mahasiswa</title> <!-- Ubah judul di sini -->
+    <title>Sistem Akademik Mahasiswa</title> <!-- Judul halaman -->
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
+    <!-- Header -->
     <header>
-        Sistem Akademik Mahasiswa <!-- Judul di header -->
+        <h1>Sistem Akademik Mahasiswa</h1> <!-- Judul header -->
     </header>
+
+    <!-- Navigasi -->
     <nav>
         <a href="{{ url_for('index') }}">Data Diri</a>
         <a href="{{ url_for('daftar_nilai') }}">Daftar Nilai</a>
+        <a href="{{ url_for('krs') }}">KRS</a>
         <a href="{{ url_for('logout') }}">Logout</a>
     </nav>
+
+    <!-- Konten Utama -->
     <section>
-        {% include content_template %}
+        {% include content_template %} <!-- Template yang dimuat dinamis -->
     </section>
+
+    <!-- Footer -->
     <footer>
         &copy; 2024 Sistem Akademik Mahasiswa
     </footer>

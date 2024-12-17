@@ -1,47 +1,46 @@
 /* Global Style */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #fff; /* Putih */
+    margin: 0;
+    padding: 0;
     color: #333;
+    background-color: #fff8e1; /* Kuning lembut */
 }
 
 /* Header */
 header {
-    background-color: #d32f2f; /* Merah */
-    color: #fff;
-    padding: 10px 0;
+    background-color: #b71c1c; /* Merah tua */
+    color: white;
     text-align: center;
-    font-size: 24px;
-    font-weight: bold;
+    padding: 1rem 0;
 }
 
 /* Navbar */
+
 nav {
-    background-color: #fbc02d; /* Kuning */
+    background-color: #f57f17; /* Kuning oranye */
+    padding: 0.5rem;
     text-align: center;
-    padding: 10px 0;
 }
 
 nav a {
-    color: #d32f2f; /* Merah */
+    color: white;
     text-decoration: none;
-    font-size: 18px;
-    margin: 0 15px;
+    margin: 0 10px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #fff;
-    background-color: #d32f2f; /* Merah */
-    padding: 5px 10px;
-    border-radius: 5px;
+    text-decoration: underline;
 }
 
-/* Content Section */
 section {
-    padding: 20px;
-    text-align: center;
+    padding: 1rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 /* Table */
@@ -92,12 +91,11 @@ button:hover {
 
 /* Footer */
 footer {
-    background-color: #d32f2f; /* Merah */
-    color: #fff;
+    background-color: #b71c1c;
+    color: white;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    padding: 1rem 0;
     position: fixed;
-    bottom: 0;
     width: 100%;
+    bottom: 0;
 }
