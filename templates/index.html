@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Akademik Mahasiswa</title> <!-- Ubah judul di sini -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        Sistem Akademik Mahasiswa <!-- Judul di header -->
+    </header>
+    <nav>
+        <a href="{{ url_for('index') }}">Data Diri</a>
+        <a href="{{ url_for('daftar_nilai') }}">Daftar Nilai</a>
+        <a href="{{ url_for('logout') }}">Logout</a>
+    </nav>
+    <section>
+        {% include content_template %}
+    </section>
+    <footer>
+        &copy; 2024 Sistem Akademik Mahasiswa
+    </footer>
+</body>
+</html>

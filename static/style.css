@@ -1,0 +1,103 @@
+/* Global Style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* Putih */
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #d32f2f; /* Merah */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Navbar */
+nav {
+    background-color: #fbc02d; /* Kuning */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #d32f2f; /* Merah */
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #d32f2f; /* Merah */
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Content Section */
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Table */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #d32f2f; /* Merah */
+    color: #fff; /* Putih */
+}
+
+tr:nth-child(even) {
+    background-color: #fbc02d; /* Kuning */
+}
+
+tr:nth-child(odd) {
+    background-color: #fff; /* Putih */
+}
+
+tr:hover {
+    background-color: #d32f2f; /* Merah */
+    color: #fff; /* Putih */
+}
+
+/* Buttons */
+button {
+    background-color: #d32f2f; /* Merah */
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fbc02d; /* Kuning */
+    color: #333;
+}
+
+/* Footer */
+footer {
+    background-color: #d32f2f; /* Merah */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

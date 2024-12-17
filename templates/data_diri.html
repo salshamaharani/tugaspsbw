@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Diri - Sistem Akademik Mahasiswa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #ffcc00; /* Garis bawah kuning */
+            padding-bottom: 10px;
+        }
+        .data-item {
+            display: flex;
+            justify-content: flex-start;
+            margin: 10px 0;
+        }
+        .label {
+            width: 30%;
+            font-weight: bold;
+            color: #333;
+        }
+        .value {
+            width: 70%;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Data Diri Mahasiswa</h2>
+        <div class="data-item">
+            <div class="label">Nama:</div>
+            <div class="value">Salshabilla Nur Maharani</div>
+        </div>
+        <div class="data-item">
+            <div class="label">Gmail:</div>
+            <div class="value">salshabilla@gmail.com</div>
+        </div>
+        <div class="data-item">
+            <div class="label">NBI:</div>
+            <div class="value">1482300084</div>
+        </div>
+        <div class="data-item">
+            <div class="label">Semester:</div>
+            <div class="value">3</div>
+        </div>
+        <div class="data-item">
+            <div class="label">Jurusan:</div>
+            <div class="value">Sistem dan Teknologi Informasi</div>
+        </div>
+        <div class="data-item">
+            <div class="label">Mata Kuliah:</div>
+            <div class="value">Pengembangan Web</div>
+        </div>
+        <div class="data-item">
+            <div class="label">Nilai:</div>
+            <div class="value">90</div>
+        </div>
+    </div>
+</body>
+</html>
